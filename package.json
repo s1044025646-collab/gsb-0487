@@ -1,0 +1,17 @@
+{
+  "name": "jones-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Jones 偏振元件顺序传播与复振幅强度核验后端",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/test/jones.test.js",
+    "start": "node dist/src/server.js",
+    "cli": "node dist/src/cli.js",
+    "demo": "node dist/src/cli.js demo"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "typescript": "*"
+  }
+}
