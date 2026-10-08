@@ -1,0 +1,11 @@
+{
+  "field": {
+    "ex": { "re": 1, "im": 0 },
+    "ey": { "re": 0, "im": 0 }
+  },
+  "components": [
+    { "kind": "polarizer", "thetaDeg": 0, "label": "P0" },
+    { "kind": "qwp", "thetaDeg": 45, "label": "QWP45" },
+    { "kind": "hwp", "thetaDeg": 22.5, "label": "HWP22.5" }
+  ]
+}
